@@ -1,3 +1,6 @@
 [submodule "pymclevel"]
 	path = pymclevel
 	url = http://github.com/mcedit/pymclevel
+[submodule "click"]
+	path = click
+	url = http://github.com/mitsuhiko/click
