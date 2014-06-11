@@ -5,6 +5,7 @@ WORLDPATH = r"C:\Path\to\level\here"
 
 import pymclevel
 import sys
+import os
 
 try:
   world = pymclevel.mclevel.fromFile(WORLDPATH)
@@ -27,4 +28,4 @@ for (xc,zc) in chunks:
     if entity["id"].value == "TileNode":
       print("x: %d y: %d z: %d") % (entity["x"].value, entity["y"].value, entity["z"].value)
       
-sys.exit("Done.")
+input("Press Enter to exit...")
